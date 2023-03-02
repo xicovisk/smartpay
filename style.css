@@ -354,6 +354,10 @@ footer img {
 
 @media (max-width:1240px) {
 
+    ul {
+        gap: 100px;
+    }
+
     .card {
         height: 200px;
         width: 200px;
