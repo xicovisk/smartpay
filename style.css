@@ -347,6 +347,7 @@ footer img {
     margin-top: 10px;
     cursor: pointer;
 }
+
 /* WHATSsAPP ICON FIXO */
 
 #whats-btn {
@@ -450,9 +451,7 @@ footer img {
         margin-top: 0;
     }
 
-
     /* HEADER NAV LOGO */
-
 
     header {
         justify-content: center;
@@ -529,11 +528,15 @@ footer img {
         margin-top: 100px;
     }
 
-    .box2-img img {
+    #img-contact {
         display: none;
     }
 
- 
+    .img-services {
+        display: none;
+    }
+
+
 }
 
 @media (max-width:430px) {
