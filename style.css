@@ -11,7 +11,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* HEADER - NAV MOBILE - NAV */
+/* HEADER - MENU MOBILE - NAV */
 
 header {
     display: flex;
@@ -38,7 +38,7 @@ span {
     font-weight: 700;
 }
 
-/* MENU MOBILE */
+/* MENU MOBILE BUTTON */
 
 span:hover {
     color: rgb(15, 84, 139);
@@ -48,7 +48,7 @@ span:hover {
     display: none;
 }
 
-/* MENU MOBILE */
+/* FIM MENU MOBILE */
 
 nav {
     display: flex;
@@ -72,8 +72,6 @@ li a:hover {
     color: rgb(233, 114, 44);
     border-bottom: 1px solid silver;
 }
-
-
 
 /* SECTION BOX-1 BOX-2-IMG*/
 
@@ -254,7 +252,6 @@ p {
 
 /* CONTACT US */
 
-
 form {
     background: rgb(105, 143, 185);
     display: flex;
@@ -329,7 +326,6 @@ form button:hover {
     color: rgb(233, 114, 44);
 }
 
-
 /* FOOTER */
 
 footer {
@@ -348,7 +344,7 @@ footer img {
     cursor: pointer;
 }
 
-/* WHATSsAPP ICON FIXO */
+/* WHATSAPP ICON FIXED */
 
 #whats-btn {
     position: fixed;
@@ -358,10 +354,7 @@ footer img {
     filter: white;
 }
 
-
-
 /* RESPONSIVO */
-
 
 @media (max-width:1520px) {
 
@@ -394,7 +387,6 @@ footer img {
 
     li {
         margin: 50px;
-
     }
 
     li a {
@@ -445,13 +437,13 @@ footer img {
         top: -5px;
     }
 
-    /* FOOTER - CONTACT */
+    /* FOOTER - CONTACT.HTML */
 
     #contact-footer {
         margin-top: 0;
     }
 
-    /* HEADER NAV LOGO */
+    /* HEADER - NAV - LOGO */
 
     header {
         justify-content: center;
@@ -494,7 +486,6 @@ footer img {
     footer p {
         color: white;
     }
-
 }
 
 @media (max-width:800px) {
@@ -535,8 +526,6 @@ footer img {
     .img-services {
         display: none;
     }
-
-
 }
 
 @media (max-width:430px) {
@@ -549,8 +538,8 @@ footer img {
 @media (max-width:370px) {
 
     /* MENU MOBILE */
+
     #menu {
         top: 120px;
     }
-
 }
