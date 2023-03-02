@@ -347,7 +347,8 @@ footer img {
     margin-top: 10px;
     cursor: pointer;
 }
-/* WHATAPP ICON FIXO */
+/* WHATSsAPP ICON FIXO */
+
 #whats-btn {
     position: fixed;
     bottom: 15px;
@@ -361,23 +362,7 @@ footer img {
 /* RESPONSIVO */
 
 
-@media (max-width:1240px) {
-
-    ul {
-        gap: 100px;
-    }
-
-    .card {
-        height: 200px;
-        width: 200px;
-    }
-
-    #img-contact {
-        display: none;
-    }
-}
-
-@media (max-width:1020px) {
+@media (max-width:1520px) {
 
     /* MENU MOBILE */
 
