@@ -1,0 +1,548 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background: rgb(247, 247, 247);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* HEADER - NAV MOBILE - NAV */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding: 20px;
+}
+
+#rede-sociais {
+    display: none;
+}
+
+.logo {
+    font-size: 50px;
+    font-weight: 600;
+    color: rgb(55, 110, 186);
+    letter-spacing: 5px;
+}
+
+span {
+    font-size: 50px;
+    color: rgb(233, 114, 44);
+    font-weight: 700;
+}
+
+/* MENU MOBILE */
+
+span:hover {
+    color: rgb(15, 84, 139);
+}
+
+#btn-mobile {
+    display: none;
+}
+
+/* MENU MOBILE */
+
+nav {
+    display: flex;
+}
+
+ul {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+li a {
+    color: rgb(33, 82, 128);
+    font-weight: 600;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+li a:hover {
+    color: rgb(233, 114, 44);
+    border-bottom: 1px solid silver;
+}
+
+
+
+/* SECTION BOX-1 BOX-2-IMG*/
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+    margin-top: 150px;
+    gap: 60px;
+}
+
+.box1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+h1 {
+    font-size: 70px;
+    color: rgb(33, 82, 128);
+}
+
+p {
+    font-size: 25px;
+    color: rgb(4, 39, 68);
+}
+
+.box2-img {
+    display: flex;
+}
+
+.box2-img img {
+    width: 100%;
+}
+
+/* ABOUT.HTML */
+
+#about-img {
+    width: 100%;
+}
+
+#about-footer {
+    margin-top: 160px;
+}
+
+
+/* BTN HEADER E SECTION*/
+
+.btn {
+    display: flex;
+    align-items: center;
+    background: rgb(55, 110, 186);
+    padding: 15px;
+    border-radius: 20px;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.btn:hover {
+    color: white;
+    background: rgb(233, 114, 44);
+}
+
+.btn2 {
+    background: rgb(55, 110, 186);
+    padding: 15px;
+    border-radius: 20px;
+    color: white;
+    width: 40%;
+    text-align: center;
+}
+
+.btn2:hover {
+    color: white;
+    background: rgb(233, 114, 44);
+}
+
+/* SERVICE.HTML CARDS */
+
+.service {
+    display: flex;
+    justify-content: left;
+    gap: 50px;
+}
+
+.service img {
+    width: 30px;
+}
+
+.service-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 300px;
+    align-items: center;
+    text-align: center;
+}
+
+.card1 {
+    height: 200px;
+    width: 200px;
+    background: rgb(25, 110, 190);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.card1:hover {
+    background: white;
+    border: 3px solid rgb(25, 110, 190);
+}
+
+.card1:hover h1 {
+    color: rgb(25, 110, 190);
+}
+
+.card2 {
+    cursor: pointer;
+    height: 200px;
+    width: 200px;
+    background: rgb(25, 110, 190);
+    border-radius: 10px;
+}
+
+.card2:hover {
+    background: white;
+    border: 3px solid rgb(25, 110, 190);
+}
+
+.card2:hover h1 {
+    color: rgb(25, 110, 190);
+}
+
+.card3 {
+    cursor: pointer;
+    height: 200px;
+    width: 200px;
+    background: rgb(25, 110, 190);
+    border-radius: 10px;
+}
+
+.card3:hover {
+    background: white;
+    border: 3px solid rgb(25, 110, 190);
+}
+
+.card3:hover h1 {
+    color: rgb(25, 110, 190);
+}
+
+.card4 {
+    cursor: pointer;
+    height: 200px;
+    width: 200px;
+    background: rgb(25, 110, 190);
+    border-radius: 10px;
+}
+
+.h1-p-card {
+    margin: 10px;
+    color: white;
+    font-size: 30px;
+}
+
+.card4:hover {
+    background: white;
+    border: 3px solid rgb(25, 110, 190);
+}
+
+.card4:hover h1 {
+    color: rgb(25, 110, 190);
+}
+
+.h1-p-card:hover {
+    color: rgb(25, 110, 190);
+}
+
+/* CONTACT US */
+
+
+form {
+    background: rgb(105, 143, 185);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 10px 30px;
+    gap: 10px;
+    margin-top: 50px;
+    width: 100%;
+    align-items: center;
+    padding-top: 30px;
+    border-radius: 10px;
+}
+
+input {
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    width: 100%;
+}
+
+input:hover {
+    border-left: 4px solid rgb(233, 114, 44);
+}
+
+textarea {
+    padding: 20px;
+    border-radius: 4px;
+    outline: none;
+    resize: none;
+    font-size: 20px;
+    width: 100%;
+}
+
+textarea:hover {
+    border-left: 4px solid rgb(233, 114, 44);
+}
+
+form button {
+    font-size: 20px;
+    padding: 20px;
+    background: rgb(33, 82, 128);
+    border: none;
+    color: white;
+    margin-bottom: 10px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+form button:hover {
+    background: rgb(233, 114, 44);
+}
+
+#img-contact {
+    margin-top: 120px;
+}
+
+.endereco {
+    background: rgb(33, 82, 128);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid black;
+    gap: 20px;
+    padding: 20px;
+}
+
+.endereco p {
+    color: rgb(233, 114, 44);
+}
+
+
+/* FOOTER */
+
+footer {
+    text-align: center;
+    margin-top: 60px;
+}
+
+footer p {
+    font-size: 13px;
+    color: rgb(74, 121, 165);
+    font-weight: 600;
+}
+
+footer img {
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+
+/* RESPONSIVO */
+
+
+@media (max-width:1240px) {
+
+    .card {
+        height: 200px;
+        width: 200px;
+    }
+
+    #img-contact {
+        display: none;
+    }
+}
+
+@media (max-width:1020px) {
+
+    /* MENU MOBILE */
+
+    #btn-mobile {
+        display: flex;
+        padding: 10px;
+        font-size: 16px;
+        border: none;
+        background: none;
+        cursor: pointer;
+        gap: 5px;
+    }
+
+    #menu {
+        position: absolute;
+        width: 100%;
+        top: 80px;
+        right: 0px;
+        background: rgb(105, 143, 185);
+        display: none;
+        cursor: pointer;
+    }
+
+    #nav.active #menu {
+        height: 700px;
+        display: block;
+    }
+
+    li {
+        margin: 50px;
+
+    }
+
+    li a {
+        color: white;
+        padding: 10px;
+    }
+
+    li a:hover {
+        background: rgb(8, 87, 133);
+        width: 100%;
+        border-bottom: none;
+        border-left: 1px solid white;
+    }
+
+    #rede-sociais {
+        display: inline;
+    }
+
+    #hamburger {
+        width: 30px;
+        border-top: 2px solid white;
+        margin: 10px 0 0 30px;
+    }
+
+    #hamburger::after,
+    #hamburger::before {
+        content: '';
+        display: block;
+        width: 30px;
+        height: 2px;
+        background-color: white;
+        margin-top: 5px;
+        background: white;
+        transition: .3s;
+        position: relative;
+    }
+
+    #nav.active #hamburger {
+        border-top-color: transparent;
+    }
+
+    #nav.active #hamburger::before {
+        transform: rotate(135deg);
+    }
+
+    #nav.active #hamburger::after {
+        transform: rotate(-135deg);
+        top: -5px;
+    }
+
+    /* FOOTER - CONTACT */
+
+    #contact-footer {
+        margin-top: 0;
+    }
+
+
+    /* HEADER NAV LOGO */
+
+
+    header {
+        justify-content: center;
+        background: rgb(15, 78, 150);
+        margin: 0;
+    }
+
+    nav {
+        display: block;
+    }
+
+    .btn {
+        display: none;
+    }
+
+    .logo {
+        align-items: center;
+        color: rgb(108, 187, 233);
+        border-bottom: 2px solid rgb(15, 78, 150);
+    }
+
+    h1 {
+        font-size: 50px;
+        text-align: left;
+    }
+
+    section {
+        margin-top: 50px;
+    }
+
+    .box1 {
+        align-items: center;
+    }
+
+    footer {
+        padding: 20px;
+        background: rgb(105, 143, 185);
+    }
+
+    footer p {
+        color: white;
+    }
+}
+
+@media (max-width:800px) {
+
+    .logo {
+        font-size: 40px;
+    }
+
+    span {
+        font-size: 45px;
+    }
+
+    section {
+        margin-top: 50px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 25px;
+    }
+
+    .service-card {
+        gap: 40px;
+        margin-bottom: 200px;
+    }
+
+    .service-card {
+        margin-top: 100px;
+    }
+}
+
+@media (max-width:430px) {
+
+    .service-card {
+        margin-bottom: 750px;
+    }
+}
+
+@media (max-width:370px) {
+
+    /* MENU MOBILE */
+    #menu {
+        top: 120px;
+    }
+
+}
