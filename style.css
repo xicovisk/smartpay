@@ -541,4 +541,8 @@ footer img {
     #menu {
         top: 120px;
     }
+
+    form {
+        gap: 20px;
+    }
 }
