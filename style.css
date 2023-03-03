@@ -372,7 +372,7 @@ footer img {
     #menu {
         position: absolute;
         width: 100%;
-        top: 80px;
+        top: 94px;
         right: 0px;
         background: rgb(105, 143, 185);
         display: none;
@@ -538,8 +538,17 @@ footer img {
 
     /* MENU MOBILE */
 
+    .logo {
+       font-size: 30px;
+       display: flex;
+       align-items: center;
+    }
+    span {
+        font-size: 30px;
+    }
+
     #menu {
-        top: 120px;
+        top: 85px;
     }
 
     form {
