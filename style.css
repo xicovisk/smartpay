@@ -106,7 +106,7 @@ p {
 }
 
 .box2-img img {
-    width: 100%;
+    width: 600px;
 }
 
 /* ABOUT.HTML */
@@ -474,6 +474,10 @@ footer img {
 
     .box1 {
         align-items: center;
+    }
+
+    .box2-img img {
+        width: 450px;
     }
 
     footer {
