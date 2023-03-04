@@ -11,7 +11,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* HEADER - MENU MOBILE - NAV */
+/* HEADER - LOGO -  MENU MOBILE - NAV */
 
 header {
     display: flex;
@@ -38,7 +38,7 @@ span {
     font-weight: 700;
 }
 
-/* MENU MOBILE BUTTON */
+/* MENU MOBILE - BUTTON HAMBURGER */
 
 span:hover {
     color: rgb(15, 84, 139);
@@ -48,7 +48,7 @@ span:hover {
     display: none;
 }
 
-/* FIM MENU MOBILE */
+/* NAV - MENU -  HEADER */
 
 nav {
     display: flex;
@@ -73,7 +73,7 @@ li a:hover {
     border-bottom: 1px solid silver;
 }
 
-/* SECTION BOX-1 BOX-2-IMG*/
+/* INDEX.HTML SECTION - DIV BOX-1 E DIV BOX-2-IMG*/
 
 section {
     display: flex;
@@ -119,8 +119,7 @@ p {
     margin-top: 160px;
 }
 
-
-/* BTN HEADER E SECTION*/
+/* BUTTON HEADER - BUTTON SECTION INDEX.HTML*/
 
 .btn {
     display: flex;
@@ -151,7 +150,7 @@ p {
     background: rgb(233, 114, 44);
 }
 
-/* SERVICE.HTML CARDS */
+/* SERVICE.HTML - CARDS */
 
 .service {
     display: flex;
@@ -250,7 +249,7 @@ p {
     color: rgb(25, 110, 190);
 }
 
-/* CONTACT US */
+/* CONTACT.HTML - FORMULARIO - IMG - ENDEREÇO - MAPS */
 
 form {
     background: rgb(105, 143, 185);
@@ -539,10 +538,11 @@ footer img {
     /* MENU MOBILE */
 
     .logo {
-       font-size: 30px;
-       display: flex;
-       align-items: center;
+        font-size: 30px;
+        display: flex;
+        align-items: center;
     }
+
     span {
         font-size: 30px;
     }
