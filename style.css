@@ -178,6 +178,18 @@ p {
     border-radius: 10px;
     cursor: pointer;
 }
+.card1 p {
+    color: rgb(233, 114, 44);
+}
+.card2 p {
+    color: rgb(233, 114, 44);
+}
+.card3 p {
+    color: rgb(233, 114, 44);
+}
+.card4 p {
+    color: rgb(233, 114, 44);
+}
 
 .card1:hover {
     background: white;
@@ -185,7 +197,7 @@ p {
 }
 
 .card1:hover h1 {
-    color: rgb(25, 110, 190);
+    color: rgb(233, 114, 44);
 }
 
 .card2 {
@@ -202,7 +214,7 @@ p {
 }
 
 .card2:hover h1 {
-    color: rgb(25, 110, 190);
+    color: rgb(233, 114, 44);
 }
 
 .card3 {
@@ -219,7 +231,7 @@ p {
 }
 
 .card3:hover h1 {
-    color: rgb(25, 110, 190);
+    color: rgb(233, 114, 44);
 }
 
 .card4 {
@@ -242,7 +254,7 @@ p {
 }
 
 .card4:hover h1 {
-    color: rgb(25, 110, 190);
+    color: rgb(233, 114, 44);
 }
 
 .h1-p-card:hover {
